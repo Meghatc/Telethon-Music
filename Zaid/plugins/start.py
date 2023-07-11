@@ -12,7 +12,7 @@ PM_START_TEXT = """
 ‣ **ɪ ᴄᴀɴ ᴅᴏ ᴏᴛʜᴇʀ ᴛʜɪɴɢꜱ ʟɪᴋᴇ ᴘɪɴꜱ ᴇᴛᴄꜱ**.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 ✘ **Want to make money at home?**.
-**Join us and click register below**.
+**Join us and click register below test test test test test test**.
 """
 
 @Zaid.on(events.NewMessage(pattern="^[?!/]start$"))
