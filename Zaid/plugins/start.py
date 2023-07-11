@@ -60,7 +60,7 @@ async def start(event):
        await event.reply("**https://t.me/tclotterypredictions 🌐**")
        return
 
-@Zaid.on(events.NewMessage(pattern="^[?!/]channel$"))
+@Zaid.on(events.NewMessage(pattern="^[?!/]contact$"))
 async def start(event):
      if event.is_group:
        await event.reply("**https://t.me/hairatc ✅**")
