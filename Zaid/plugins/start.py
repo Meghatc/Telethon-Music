@@ -49,21 +49,24 @@ async def _(event):
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
 
-
+         
 @Zaid.on(events.NewMessage(pattern="^[?!/]register$"))
 async def start(event):
      if event.is_group:
-       await event.reply("**https://www.9987up.cc/#/register?r_code=81283503 📲**")
+       await event.reply("**Register now!**",buttons=[
+        [Button.url("Register Here 🤍", f"http://www.9987up.cc/#/register?r_code=81283503")]])
        return
 
 @Zaid.on(events.NewMessage(pattern="^[?!/]money$"))
 async def start(event):
      if event.is_group:
-       await event.reply("**https://t.me/tclotterypredictions 🌐**")
+       await event.reply("**I know you want to earn money, Come and join**",buttons=[
+        [Button.url("Check it out", f"https://t.me/tclotterypredictions")]])
        return
 
 @Zaid.on(events.NewMessage(pattern="^[?!/]contact$"))
 async def start(event):
      if event.is_group:
-       await event.reply("**https://t.me/hairatc ✅**")
+       await event.reply("**Contact Us Now**",buttons=[
+        [Button.url("Hello 📞", f"https://t.me/hairatc")]])
        return
